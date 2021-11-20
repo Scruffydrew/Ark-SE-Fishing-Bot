@@ -12,7 +12,7 @@ Step 2:
   Cast your rod and wait
   **The program will not cast the rod for you, so you will have to do that yourself**
 
-___________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
   
   **At all times you must be clicked into Ark otherwise the program will not work as it just simulates keyboard presses to create a sort of macro that is able to make decisions on what it should do based on what it can see on your screen**
   
