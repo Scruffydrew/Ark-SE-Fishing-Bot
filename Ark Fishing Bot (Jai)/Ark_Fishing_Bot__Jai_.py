@@ -24,17 +24,7 @@ print("Starting program")
 time.sleep(2)
 
 # Activates the print block function
-blockPrint()
-
-keyq = "q" # Used to press down and release the 'q' key
-keyw = "w" # Used to press down and release the 'w' key
-keye = "e" # Used to press down and release the 'e' key
-keya = "a" # Used to press down and release the 'a' key
-keys = "s" # Used to press down and release the 's' key
-keyd = "d" # Used to press down and release the 'd' key
-keyz = "z" # Used to press down and release the 'z' key
-keyx = "x" # Used to press down and release the 'x' key
-keyc = "c" # Used to press down and release the 'c' key
+#blockPrint()
 
 print('39')
 
