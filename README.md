@@ -27,4 +27,5 @@ ________________________________________________________________________________
   After clicking on More info the pop-up will look something similar to the above image, just may be a different colour depending on your what you have your colours set to in your settings.
 
   Just click on the button labeled Run anyway, this will run the program.
+  
   **You will only need to do this for the first time you run the program**
