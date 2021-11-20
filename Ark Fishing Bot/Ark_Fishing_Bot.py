@@ -73,50 +73,50 @@ while loop == 1:
         pyautogui.keyUp("q")
         continue
 
-    if PressW == colour:
+    elif PressW == colour:
         print('Press W')
         pyautogui.keyDown("w")
         pyautogui.keyUp("w")
         continue
 
-    if PressA == colour:
+    elif PressA == colour:
         print('Press A')
         pyautogui.keyDown("a")
         pyautogui.keyUp("a")
         continue
 
-    if PressD == colour:
+    elif PressD == colour:
         print('Press D')
         pyautogui.keyDown("d")
         pyautogui.keyUp("d")
         continue
 
-    if PressZ == colour:
+    elif PressZ == colour:
         print('Press Z')
         pyautogui.keyDown("z")
         pyautogui.keyUp("z")
         continue
 
-    if PressX == colour:
+    elif PressX == colour:
         print('Press X')
         pyautogui.keyDown("x")
         pyautogui.keyUp("x")
         continue
 
 
-    if PressE == colour and E1 != colour and E2 != colour and E3 != colour and E4 != colour and E5 != colour:
+    elif PressE == colour and E1 != colour and E2 != colour and E3 != colour and E4 != colour and E5 != colour:
         print('Press E')
         pyautogui.keyDown("e")
         pyautogui.keyUp("e")
         continue
 
-    if PressS == colour and S1 != colour and S2 != colour and S3 != colour:
+    elif PressS == colour and S1 != colour and S2 != colour and S3 != colour:
         print('Press S')
         pyautogui.keyDown("s")
         pyautogui.keyUp("s")
         continue
 
-    if PressC == colour and C1 != colour and C2 != colour:
+    elif PressC == colour and C1 != colour and C2 != colour:
         print('Press C')
         pyautogui.keyDown("c")
         pyautogui.keyUp("c")
