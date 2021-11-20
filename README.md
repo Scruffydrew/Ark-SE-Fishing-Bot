@@ -1,6 +1,6 @@
 # Ark-Fishing-Bot
+**The only way to stop the program is to either close the console or to end it in task manager**
 
-**The only way to stop the program is to either close the console or to end it in task manager, it will also continuously snipe cars for you so can leave it over night and potentially come back to multiple purchases of cars.**
 To use the program follow the following steps:
 
 Step 1:
@@ -10,9 +10,10 @@ Step 1:
 Step 2:
 
   Cast your rod and wait
+  **The program will not cast the rod for you, so you will have to do that yourself**
 
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-
+___________________________________________________________________________________________________________________________________________________________________________________
+  
   **At all times you must be clicked into Ark otherwise the program will not work as it just simulates keyboard presses to create a sort of macro that is able to make decisions on what it should do based on what it can see on your screen**
   
   ![71Untitled](https://user-images.githubusercontent.com/66156463/142713028-2eaf3887-8582-4271-9d26-3758d348e1bf.png)
@@ -26,3 +27,4 @@ ________________________________________________________________________________
   After clicking on More info the pop-up will look something similar to the above image, just may be a different colour depending on your what you have your colours set to in your settings.
 
   Just click on the button labeled Run anyway, this will run the program.
+  **You will only need to do this for the first time you run the program**
