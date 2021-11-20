@@ -1,11 +1,13 @@
+from PIL import Image, ImageTk
+from tkinter import *
+import tkinter as tkr
 import PIL.ImageGrab
 import pyautogui
 import time
 import sys
 
-from tkinter import *
-import tkinter as tkr
-from PIL import Image, ImageTk
+
+
 
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """
@@ -180,7 +182,5 @@ btn1 = Button(root, image=img1,command= close_command,borderwidth=0, bg='grey', 
 btn1.pack(pady=0)
 
 changeOnHover1(btn1, closehover, close)
-
-
 
 root.mainloop()
