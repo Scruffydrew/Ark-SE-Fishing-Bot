@@ -25,7 +25,7 @@ ________________________________________________________________________________
 
   ![7Untitled](https://user-images.githubusercontent.com/66156463/142713049-d628f700-b91b-4e0b-ba51-fa083368fc83.png)
 
-  After clicking on More info the pop-up will look something similar to the above image, just may be a different colour depending on your what you have your colours set to in your settings.
+  After clicking on More info the pop-up will look something similar to the above image, just may be a different colour depending on your what you have your colours set to in your settings, and it will have a different name listed for the application.
 
   Just click on the button labeled Run anyway, this will run the program.
   
