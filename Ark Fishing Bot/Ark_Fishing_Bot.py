@@ -39,6 +39,25 @@ B = 255
 
 colour = (R,G,B)
 
+pyautogui.keyDown("tab")
+pyautogui.keyUp("tab")
+pyautogui.keyDown("g")
+pyautogui.keyUp("g")
+pyautogui.keyDown("a")
+pyautogui.keyUp("a")
+pyautogui.keyDown("m")
+pyautogui.keyUp("m")
+pyautogui.keyDown("m")
+pyautogui.keyUp("m")
+pyautogui.keyDown("a")
+pyautogui.keyUp("a")
+pyautogui.keyDown("space")
+pyautogui.keyUp("space")
+pyautogui.keyDown("1")
+pyautogui.keyUp("1")
+pyautogui.keyDown("enter")
+pyautogui.keyUp("enter")
+
 while loop == 1:
     print(colour)
     PressQ = PIL.ImageGrab.grab().load()[1181, 1016]  # Get the RGB value for the pixel at x=1181, y=1016 on your screen
