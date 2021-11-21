@@ -3,8 +3,10 @@
 
 To use the program follow the following steps:
 
-Step 1:
+***Make sure you have your UI scale set to the maximum value***
 
+Step 1:
+  
   Run the program and click back into Ark.
 
 Step 2:
