@@ -28,7 +28,7 @@ print("Starting program")
 time.sleep(2)
 
 # Activates the print block function
-blockPrint()
+#blockPrint()
 
 print('39')
 loop = 1
@@ -55,36 +55,42 @@ while loop == 1:
     print('55')
 
     if PressQ == colour:
+        time.sleep(0.1)
         print('Press Q')
         pyautogui.keyDown("q")
         pyautogui.keyUp("q")
         continue
 
     if PressW == colour:
+        time.sleep(0.1)
         print('Press W')
         pyautogui.keyDown("w")
         pyautogui.keyUp("w")
         continue
 
     if PressA == colour:
+        time.sleep(0.1)
         print('Press A')
         pyautogui.keyDown("a")
         pyautogui.keyUp("a")
         continue
 
     if PressD == colour:
+        time.sleep(0.1)
         print('Press D')
         pyautogui.keyDown("d")
         pyautogui.keyUp("d")
         continue
 
     if PressZ == colour:
+        time.sleep(0.1)
         print('Press Z')
         pyautogui.keyDown("z")
         pyautogui.keyUp("z")
         continue
 
     if PressX == colour:
+        time.sleep(0.1)
         print('Press X')
         pyautogui.keyDown("x")
         pyautogui.keyUp("x")
@@ -92,18 +98,21 @@ while loop == 1:
 
 
     if PressE == colour and PressA != colour and PressZ != colour and PressW != colour and PressX != colour and PressD != colour:
+        time.sleep(0.1)
         print('Press E')
         pyautogui.keyDown("e")
         pyautogui.keyUp("e")
         continue
 
     if PressS == colour and PressZ != colour and PressW != colour and PressX != colour:
+        time.sleep(0.1)
         print('Press S')
         pyautogui.keyDown("s")
         pyautogui.keyUp("s")
         continue
 
     if PressC == colour and PressQ != colour and PressD != colour:
+        time.sleep(0.1)
         print('Press C')
         pyautogui.keyDown("c")
         pyautogui.keyUp("c")
