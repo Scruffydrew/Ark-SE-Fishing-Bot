@@ -44,186 +44,67 @@ while loop == 1:
     PressQ = PIL.ImageGrab.grab().load()[1181, 1016]  # Get the RGB value for the pixel at x=1181, y=1016 on your screen
     PressW = PIL.ImageGrab.grab().load()[1113, 868]  # Get the RGB value for the pixel at x=1113, y=868 on your screen
     PressA = PIL.ImageGrab.grab().load()[1162, 970]  # Get the RGB value for the pixel at x=1162, y=970 on your screen
-    PressD = PIL.ImageGrab.grab().load()[1192, 906]  # Get the RGB value for the pixel at x=1192, y=906 on your screen
+    PressD = PIL.ImageGrab.grab().load()[1187, 907]  # Get the RGB value for the pixel at x=1192, y=906 on your screen
     PressZ = PIL.ImageGrab.grab().load()[1158, 973]  # Get the RGB value for the pixel at x=1158, y=973 on your screen
     PressX = PIL.ImageGrab.grab().load()[1167, 972]  # Get the RGB value for the pixel at x=1167, y=972 on your screen
 
     PressE = PIL.ImageGrab.grab().load()[1186, 998]  # Get the RGB value for the pixel at x=1186, y=998 on your screen
     PressS = PIL.ImageGrab.grab().load()[1161, 917]  # Get the RGB value for the pixel at x=1161, y=917 on your screen
-    PressC = PIL.ImageGrab.grab().load()[1135, 918]  # Get the RGB value for the pixel at x=1135, y=918 on your screen
-
+    PressC = PIL.ImageGrab.grab().load()[1134, 918]  # Get the RGB value for the pixel at x=1135, y=918 on your screen
 
     print('55')
-    time.sleep(0.1)
 
-    if PressQ == colour:
-        time.sleep(0.1)
+    if PressQ == colour and PressW != colour and PressA != colour and PressD == colour and PressZ != colour and PressX != colour and PressE != colour and PressS != colour and PressC != colour:
         print('Press Q')
         pyautogui.keyDown("q")
         pyautogui.keyUp("q")
         continue
-    else:
-        PressQ = PIL.ImageGrab.grab().load()[1181, 1016]  # Get the RGB value for the pixel at x=1181, y=1016 on your screen
-        PressW = PIL.ImageGrab.grab().load()[1113, 868]  # Get the RGB value for the pixel at x=1113, y=868 on your screen
-        PressA = PIL.ImageGrab.grab().load()[1162, 970]  # Get the RGB value for the pixel at x=1162, y=970 on your screen
-        PressD = PIL.ImageGrab.grab().load()[1192, 906]  # Get the RGB value for the pixel at x=1192, y=906 on your screen
-        PressZ = PIL.ImageGrab.grab().load()[1158, 973]  # Get the RGB value for the pixel at x=1158, y=973 on your screen
-        PressX = PIL.ImageGrab.grab().load()[1167, 972]  # Get the RGB value for the pixel at x=1167, y=972 on your screen
 
-        PressE = PIL.ImageGrab.grab().load()[1186, 998]  # Get the RGB value for the pixel at x=1186, y=998 on your screen
-        PressS = PIL.ImageGrab.grab().load()[1161, 917]  # Get the RGB value for the pixel at x=1161, y=917 on your screen
-        PressC = PIL.ImageGrab.grab().load()[1135, 918]  # Get the RGB value for the pixel at x=1135, y=918 on your screen
-        continue
-
-    if PressW == colour:
-        time.sleep(0.1)
+    if PressW == colour and PressQ != colour and PressA != colour and PressD != colour and PressZ != colour and PressX != colour and PressE == colour and PressS == colour and PressC != colour:
         print('Press W')
         pyautogui.keyDown("w")
         pyautogui.keyUp("w")
         continue
-    else:
-        PressQ = PIL.ImageGrab.grab().load()[1181, 1016]  # Get the RGB value for the pixel at x=1181, y=1016 on your screen
-        PressW = PIL.ImageGrab.grab().load()[1113, 868]  # Get the RGB value for the pixel at x=1113, y=868 on your screen
-        PressA = PIL.ImageGrab.grab().load()[1162, 970]  # Get the RGB value for the pixel at x=1162, y=970 on your screen
-        PressD = PIL.ImageGrab.grab().load()[1192, 906]  # Get the RGB value for the pixel at x=1192, y=906 on your screen
-        PressZ = PIL.ImageGrab.grab().load()[1158, 973]  # Get the RGB value for the pixel at x=1158, y=973 on your screen
-        PressX = PIL.ImageGrab.grab().load()[1167, 972]  # Get the RGB value for the pixel at x=1167, y=972 on your screen
 
-        PressE = PIL.ImageGrab.grab().load()[1186, 998]  # Get the RGB value for the pixel at x=1186, y=998 on your screen
-        PressS = PIL.ImageGrab.grab().load()[1161, 917]  # Get the RGB value for the pixel at x=1161, y=917 on your screen
-        PressC = PIL.ImageGrab.grab().load()[1135, 918]  # Get the RGB value for the pixel at x=1135, y=918 on your screen
-        continue
-
-    if PressA == colour:
-        time.sleep(0.1)
+    if PressA == colour and PressQ != colour and PressW != colour and PressD != colour and PressZ != colour and PressX != colour and PressE == colour and PressS != colour and PressC != colour:
         print('Press A')
         pyautogui.keyDown("a")
         pyautogui.keyUp("a")
         continue
-    else:
-        PressQ = PIL.ImageGrab.grab().load()[1181, 1016]  # Get the RGB value for the pixel at x=1181, y=1016 on your screen
-        PressW = PIL.ImageGrab.grab().load()[1113, 868]  # Get the RGB value for the pixel at x=1113, y=868 on your screen
-        PressA = PIL.ImageGrab.grab().load()[1162, 970]  # Get the RGB value for the pixel at x=1162, y=970 on your screen
-        PressD = PIL.ImageGrab.grab().load()[1192, 906]  # Get the RGB value for the pixel at x=1192, y=906 on your screen
-        PressZ = PIL.ImageGrab.grab().load()[1158, 973]  # Get the RGB value for the pixel at x=1158, y=973 on your screen
-        PressX = PIL.ImageGrab.grab().load()[1167, 972]  # Get the RGB value for the pixel at x=1167, y=972 on your screen
 
-        PressE = PIL.ImageGrab.grab().load()[1186, 998]  # Get the RGB value for the pixel at x=1186, y=998 on your screen
-        PressS = PIL.ImageGrab.grab().load()[1161, 917]  # Get the RGB value for the pixel at x=1161, y=917 on your screen
-        PressC = PIL.ImageGrab.grab().load()[1135, 918]  # Get the RGB value for the pixel at x=1135, y=918 on your screen
-        continue
-
-    if PressD == colour:
-        time.sleep(0.1)
+    if PressD == colour and PressQ != colour and PressW != colour and PressA != colour and PressZ != colour and PressX != colour and PressE != colour and PressS != colour and PressC == colour:
         print('Press D')
         pyautogui.keyDown("d")
         pyautogui.keyUp("d")
         continue
-    else:
-        PressQ = PIL.ImageGrab.grab().load()[1181, 1016]  # Get the RGB value for the pixel at x=1181, y=1016 on your screen
-        PressW = PIL.ImageGrab.grab().load()[1113, 868]  # Get the RGB value for the pixel at x=1113, y=868 on your screen
-        PressA = PIL.ImageGrab.grab().load()[1162, 970]  # Get the RGB value for the pixel at x=1162, y=970 on your screen
-        PressD = PIL.ImageGrab.grab().load()[1192, 906]  # Get the RGB value for the pixel at x=1192, y=906 on your screen
-        PressZ = PIL.ImageGrab.grab().load()[1158, 973]  # Get the RGB value for the pixel at x=1158, y=973 on your screen
-        PressX = PIL.ImageGrab.grab().load()[1167, 972]  # Get the RGB value for the pixel at x=1167, y=972 on your screen
 
-        PressE = PIL.ImageGrab.grab().load()[1186, 998]  # Get the RGB value for the pixel at x=1186, y=998 on your screen
-        PressS = PIL.ImageGrab.grab().load()[1161, 917]  # Get the RGB value for the pixel at x=1161, y=917 on your screen
-        PressC = PIL.ImageGrab.grab().load()[1135, 918]  # Get the RGB value for the pixel at x=1135, y=918 on your screen
-        continue
-
-    if PressZ == colour:
-        time.sleep(0.1)
+    if PressZ == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressX != colour and PressE == colour and PressS == colour and PressC != colour:
         print('Press Z')
         pyautogui.keyDown("z")
         pyautogui.keyUp("z")
         continue
-    else:
-        PressQ = PIL.ImageGrab.grab().load()[1181, 1016]  # Get the RGB value for the pixel at x=1181, y=1016 on your screen
-        PressW = PIL.ImageGrab.grab().load()[1113, 868]  # Get the RGB value for the pixel at x=1113, y=868 on your screen
-        PressA = PIL.ImageGrab.grab().load()[1162, 970]  # Get the RGB value for the pixel at x=1162, y=970 on your screen
-        PressD = PIL.ImageGrab.grab().load()[1192, 906]  # Get the RGB value for the pixel at x=1192, y=906 on your screen
-        PressZ = PIL.ImageGrab.grab().load()[1158, 973]  # Get the RGB value for the pixel at x=1158, y=973 on your screen
-        PressX = PIL.ImageGrab.grab().load()[1167, 972]  # Get the RGB value for the pixel at x=1167, y=972 on your screen
 
-        PressE = PIL.ImageGrab.grab().load()[1186, 998]  # Get the RGB value for the pixel at x=1186, y=998 on your screen
-        PressS = PIL.ImageGrab.grab().load()[1161, 917]  # Get the RGB value for the pixel at x=1161, y=917 on your screen
-        PressC = PIL.ImageGrab.grab().load()[1135, 918]  # Get the RGB value for the pixel at x=1135, y=918 on your screen
-        continue
-
-    if PressX == colour:
-        time.sleep(0.1)
+    if PressX == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressZ != colour and PressE == colour and PressS == colour and PressC != colour:
         print('Press X')
         pyautogui.keyDown("x")
         pyautogui.keyUp("x")
         continue
-    else:
-        PressQ = PIL.ImageGrab.grab().load()[1181, 1016]  # Get the RGB value for the pixel at x=1181, y=1016 on your screen
-        PressW = PIL.ImageGrab.grab().load()[1113, 868]  # Get the RGB value for the pixel at x=1113, y=868 on your screen
-        PressA = PIL.ImageGrab.grab().load()[1162, 970]  # Get the RGB value for the pixel at x=1162, y=970 on your screen
-        PressD = PIL.ImageGrab.grab().load()[1192, 906]  # Get the RGB value for the pixel at x=1192, y=906 on your screen
-        PressZ = PIL.ImageGrab.grab().load()[1158, 973]  # Get the RGB value for the pixel at x=1158, y=973 on your screen
-        PressX = PIL.ImageGrab.grab().load()[1167, 972]  # Get the RGB value for the pixel at x=1167, y=972 on your screen
-
-        PressE = PIL.ImageGrab.grab().load()[1186, 998]  # Get the RGB value for the pixel at x=1186, y=998 on your screen
-        PressS = PIL.ImageGrab.grab().load()[1161, 917]  # Get the RGB value for the pixel at x=1161, y=917 on your screen
-        PressC = PIL.ImageGrab.grab().load()[1135, 918]  # Get the RGB value for the pixel at x=1135, y=918 on your screen
-        continue
 
 
-    if PressE == colour and PressA != colour and PressZ != colour and PressW != colour and PressX != colour and PressD != colour:
-        time.sleep(0.1)
+    if PressE == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressZ != colour and PressX != colour and PressS != colour and PressC != colour:
         print('Press E')
         pyautogui.keyDown("e")
         pyautogui.keyUp("e")
         continue
-    else:
-        PressQ = PIL.ImageGrab.grab().load()[1181, 1016]  # Get the RGB value for the pixel at x=1181, y=1016 on your screen
-        PressW = PIL.ImageGrab.grab().load()[1113, 868]  # Get the RGB value for the pixel at x=1113, y=868 on your screen
-        PressA = PIL.ImageGrab.grab().load()[1162, 970]  # Get the RGB value for the pixel at x=1162, y=970 on your screen
-        PressD = PIL.ImageGrab.grab().load()[1192, 906]  # Get the RGB value for the pixel at x=1192, y=906 on your screen
-        PressZ = PIL.ImageGrab.grab().load()[1158, 973]  # Get the RGB value for the pixel at x=1158, y=973 on your screen
-        PressX = PIL.ImageGrab.grab().load()[1167, 972]  # Get the RGB value for the pixel at x=1167, y=972 on your screen
 
-        PressE = PIL.ImageGrab.grab().load()[1186, 998]  # Get the RGB value for the pixel at x=1186, y=998 on your screen
-        PressS = PIL.ImageGrab.grab().load()[1161, 917]  # Get the RGB value for the pixel at x=1161, y=917 on your screen
-        PressC = PIL.ImageGrab.grab().load()[1135, 918]  # Get the RGB value for the pixel at x=1135, y=918 on your screen
-        continue
-
-    if PressS == colour and PressZ != colour and PressW != colour and PressX != colour:
-        time.sleep(0.1)
+    if PressS == colour and PressW != colour and PressA != colour and PressA != colour and PressA != colour and PressA != colour and PressA != colour and PressA != colour and PressA != colour:
         print('Press S')
         pyautogui.keyDown("s")
         pyautogui.keyUp("s")
         continue
-    else:
-        PressQ = PIL.ImageGrab.grab().load()[1181, 1016]  # Get the RGB value for the pixel at x=1181, y=1016 on your screen
-        PressW = PIL.ImageGrab.grab().load()[1113, 868]  # Get the RGB value for the pixel at x=1113, y=868 on your screen
-        PressA = PIL.ImageGrab.grab().load()[1162, 970]  # Get the RGB value for the pixel at x=1162, y=970 on your screen
-        PressD = PIL.ImageGrab.grab().load()[1192, 906]  # Get the RGB value for the pixel at x=1192, y=906 on your screen
-        PressZ = PIL.ImageGrab.grab().load()[1158, 973]  # Get the RGB value for the pixel at x=1158, y=973 on your screen
-        PressX = PIL.ImageGrab.grab().load()[1167, 972]  # Get the RGB value for the pixel at x=1167, y=972 on your screen
 
-        PressE = PIL.ImageGrab.grab().load()[1186, 998]  # Get the RGB value for the pixel at x=1186, y=998 on your screen
-        PressS = PIL.ImageGrab.grab().load()[1161, 917]  # Get the RGB value for the pixel at x=1161, y=917 on your screen
-        PressC = PIL.ImageGrab.grab().load()[1135, 918]  # Get the RGB value for the pixel at x=1135, y=918 on your screen
-        continue
-
-    if PressC == colour and PressQ != colour and PressD != colour:
-        time.sleep(0.1)
+    if PressC == colour and PressW != colour and PressA != colour and PressA != colour and PressA != colour and PressA != colour and PressA != colour and PressA != colour and PressA != colour:
         print('Press C')
         pyautogui.keyDown("c")
         pyautogui.keyUp("c")
-        continue
-    else:
-        PressQ = PIL.ImageGrab.grab().load()[1181, 1016]  # Get the RGB value for the pixel at x=1181, y=1016 on your screen
-        PressW = PIL.ImageGrab.grab().load()[1113, 868]  # Get the RGB value for the pixel at x=1113, y=868 on your screen
-        PressA = PIL.ImageGrab.grab().load()[1162, 970]  # Get the RGB value for the pixel at x=1162, y=970 on your screen
-        PressD = PIL.ImageGrab.grab().load()[1192, 906]  # Get the RGB value for the pixel at x=1192, y=906 on your screen
-        PressZ = PIL.ImageGrab.grab().load()[1158, 973]  # Get the RGB value for the pixel at x=1158, y=973 on your screen
-        PressX = PIL.ImageGrab.grab().load()[1167, 972]  # Get the RGB value for the pixel at x=1167, y=972 on your screen
-
-        PressE = PIL.ImageGrab.grab().load()[1186, 998]  # Get the RGB value for the pixel at x=1186, y=998 on your screen
-        PressS = PIL.ImageGrab.grab().load()[1161, 917]  # Get the RGB value for the pixel at x=1161, y=917 on your screen
-        PressC = PIL.ImageGrab.grab().load()[1135, 918]  # Get the RGB value for the pixel at x=1135, y=918 on your screen
         continue
