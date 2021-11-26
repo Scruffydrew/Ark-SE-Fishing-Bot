@@ -48,56 +48,65 @@ while loop == 1:
 
     print('55')
 
-    if PressQ == colour and PressW != colour and PressA != colour and PressD == colour and PressZ == colour and PressX != colour and PressE != colour and PressS != colour and PressC != colour:
+    if PressQ == colour and PressW != colour and PressA != colour and PressD == colour and PressZ == colour and PressX != colour and PressE != colour and PressS != colour:
+        time.sleep(.1)
         print('Press Q')
         pyautogui.keyDown("q")
         pyautogui.keyUp("q")
         continue
 
-    if PressW == colour and PressQ != colour and PressA != colour and PressD != colour and PressZ == colour and PressX != colour and PressE == colour and PressS == colour and PressC != colour:
+    if PressW == colour and PressQ != colour and PressA != colour and PressD != colour and PressZ == colour and PressX != colour and PressE == colour and PressS == colour:
+        time.sleep(.1)
         print('Press W')
         pyautogui.keyDown("w")
         pyautogui.keyUp("w")
         continue
 
-    if PressA == colour and PressQ != colour and PressW != colour and PressD != colour and PressZ == colour and PressX != colour and PressE == colour and PressS != colour and PressC != colour:
+    if PressA == colour and PressQ != colour and PressW != colour and PressD != colour and PressZ == colour and PressX != colour and PressE == colour and PressS != colour:
+        time.sleep(.1)
         print('Press A')
         pyautogui.keyDown("a")
         pyautogui.keyUp("a")
         continue
 
-    if PressD == colour and PressQ != colour and PressW != colour and PressA != colour and PressZ == colour and PressX != colour and PressE != colour and PressS != colour and PressC == colour:
+    if PressD == colour and PressQ != colour and PressW != colour and PressA != colour and PressZ == colour and PressX != colour and PressE != colour and PressS != colour:
+        time.sleep(.1)
         print('Press D')
         pyautogui.keyDown("d")
         pyautogui.keyUp("d")
         continue
 
-    if PressZ == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressX != colour and PressE == colour and PressS == colour and PressC != colour:
+    if PressZ == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressX != colour and PressE == colour and PressS == colour:
+        time.sleep(.1)
         print('Press Z')
         pyautogui.keyDown("z")
         pyautogui.keyUp("z")
         continue
 
-    if PressX == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressZ == colour and PressE == colour and PressS == colour and PressC != colour:
+    if PressX == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressZ == colour and PressE == colour and PressS == colour:
+        time.sleep(.1)
         print('Press X')
         pyautogui.keyDown("x")
         pyautogui.keyUp("x")
         continue
 
 
-    if PressE == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressZ == colour and PressX != colour and PressS != colour and PressC != colour:
+    if PressE == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressZ == colour and PressX != colour and PressS != colour:
+        time.sleep(.1)
         print('Press E')
         pyautogui.keyDown("e")
         pyautogui.keyUp("e")
         continue
 
-    if PressS == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressZ == colour and PressX != colour and PressE != colour and PressC != colour:
+    if PressS == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressZ == colour and PressX != colour and PressE != colour:
+        time.sleep(.1)
         print('Press S')
         pyautogui.keyDown("s")
         pyautogui.keyUp("s")
         continue
 
     if PressC == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressZ == colour and PressX != colour and PressE != colour and PressS != colour:
+        time.sleep(.1)
         print('Press C')
         pyautogui.keyDown("c")
         pyautogui.keyUp("c")
