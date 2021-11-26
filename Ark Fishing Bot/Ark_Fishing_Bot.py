@@ -21,14 +21,20 @@ def resource_path(relative_path):
 def blockPrint():
     sys.stdout = open(os.devnull, 'w')
 
-# Start of Code
-print("Welcome to the Ark Automated Fishing Service")
-time.sleep(2)
-print("Starting program")
-time.sleep(2)
-
 # Activates the print block function
 blockPrint()
+
+root = tkr.Tk()
+    # names the Tk root window
+root.title("Automated Fishing Service Starter")
+    # sets the size of the window
+root.geometry("800x150")
+    # removes title bar from window
+root.overrideredirect(1)
+
+root.configure(bg='grey')
+root.wm_attributes("-topmost", True)
+root.wm_attributes("-transparentcolor", "grey")
 
 print('39')
 loop = 1
@@ -108,3 +114,5 @@ while loop == 1:
         pyautogui.keyDown("c")
         pyautogui.keyUp("c")
         continue
+
+root.mainloop()
