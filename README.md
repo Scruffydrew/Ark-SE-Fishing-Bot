@@ -3,7 +3,11 @@
 
 To use the program follow the following steps:
 
-***Make sure you have your UI scale set to the maximum value***
+***Make sure you have your UI scale set to the maximum value and make sure you set your gamma to 1 (this can be done by entering "gamma 1" (without the quotation marks) into the ingame console)***
+
+![u11111nknown](https://user-images.githubusercontent.com/66156463/143394135-6b2121d0-3472-488f-99f5-feb56d3a60c4.png)
+
+The UI scale setting is found in the settings and should look like the above image
 
 Step 1:
   
