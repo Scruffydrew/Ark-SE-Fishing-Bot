@@ -51,7 +51,7 @@ class App():
 
         # Frame 1
 
-        welcome = 'welcome.png'
+        welcome = resource_path('welcome.png')
 
         img1 = PhotoImage(file=welcome)
         btn1= Button(self.frame1, image=img1, borderwidth=0, bg='grey', activebackground='grey', height=75)
@@ -61,9 +61,9 @@ class App():
 
         # Frame 2
 
-        welcome = 'welcome.png'
+        welcome = resource_path('welcome.png')
 
-        starting = 'starting.png'
+        starting = resource_path('starting.png')
 
         img2 = PhotoImage(file=welcome)
         btn2= Button(self.frame2, image=img2, borderwidth=0, bg='grey', activebackground='grey', height=75)
@@ -77,7 +77,7 @@ class App():
 
         # Frame 3
 
-        overlay = 'overlay.png'
+        overlay = resource_path('overlay.png')
 
         img4 = PhotoImage(file=overlay)
         btn4= Button(self.frame3, image=img4, command=self.close_command, borderwidth=0, bg='grey', activebackground='grey', height=75)
@@ -90,8 +90,7 @@ class App():
         
         
 
-        
-
+    
         self.root.mainloop()
 
         

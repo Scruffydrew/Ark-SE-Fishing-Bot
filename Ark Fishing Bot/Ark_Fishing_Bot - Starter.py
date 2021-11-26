@@ -40,9 +40,9 @@ class App():
         self.root.wm_attributes("-topmost", True)
         self.root.wm_attributes("-transparentcolor", "grey")
 
-        normal = 'normal.png'
+        normal = resource_path('normal.png')
 
-        hover = 'hover.png'
+        hover = resource_path('hover.png')
 
         imgh = PhotoImage(file=hover)
 
@@ -66,6 +66,6 @@ class App():
     def start_command(self):
         #print ("You've chosen to start the program") 
         self.root.destroy() # Closes the menu
-        exec(open('Ark_Fishing_Bot - Starting Stage.py').read()) # Runs the selected python file
+        exec(open(resource_path('Ark_Fishing_Bot - Starting Stage.py')).read()) # Runs the selected python file
 
 a = App()
