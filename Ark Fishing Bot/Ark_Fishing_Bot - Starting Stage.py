@@ -113,6 +113,7 @@ class App():
 
     def close_command(self):
         #print ("Closing...")
+        self.root.destroy()
         sys.exit()
 
 a = App()
