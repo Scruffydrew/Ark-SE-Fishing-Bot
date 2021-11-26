@@ -28,7 +28,7 @@ print("Starting program")
 time.sleep(2)
 
 # Activates the print block function
-#blockPrint()
+blockPrint()
 
 print('39')
 loop = 1
