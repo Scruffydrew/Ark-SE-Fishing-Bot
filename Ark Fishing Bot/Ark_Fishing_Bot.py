@@ -77,7 +77,7 @@ while loop == 1:
         pyautogui.keyUp("d")
         continue
 
-    if PressZ == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressX != colour and PressE == colour and PressS == colour and :
+    if PressZ == colour and PressQ != colour and PressW != colour and PressA != colour and PressD != colour and PressX != colour and PressE == colour and PressS == colour:
         time.sleep(.1)
         print('Press Z')
         pyautogui.keyDown("z")
