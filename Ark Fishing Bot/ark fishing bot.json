@@ -1,0 +1,101 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "D:/Microsoft Visual Studio/Projects/Ark Fishing Bot (Jai)/Ark Fishing Bot/Ark_Fishing_Bot - Starter.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": true
+  },
+  {
+   "optionDest": "console",
+   "value": true
+  },
+  {
+   "optionDest": "icon_file",
+   "value": "D:/Microsoft Visual Studio/Projects/Ark Fishing Bot (Jai)/Ark Fishing Bot/app.ico"
+  },
+  {
+   "optionDest": "name",
+   "value": "Ark Automated Fishing Service"
+  },
+  {
+   "optionDest": "ascii",
+   "value": false
+  },
+  {
+   "optionDest": "clean_build",
+   "value": false
+  },
+  {
+   "optionDest": "strip",
+   "value": false
+  },
+  {
+   "optionDest": "noupx",
+   "value": false
+  },
+  {
+   "optionDest": "disable_windowed_traceback",
+   "value": false
+  },
+  {
+   "optionDest": "embed_manifest",
+   "value": true
+  },
+  {
+   "optionDest": "uac_admin",
+   "value": false
+  },
+  {
+   "optionDest": "uac_uiaccess",
+   "value": false
+  },
+  {
+   "optionDest": "win_private_assemblies",
+   "value": false
+  },
+  {
+   "optionDest": "win_no_prefer_redirects",
+   "value": false
+  },
+  {
+   "optionDest": "bootloader_ignore_signals",
+   "value": false
+  },
+  {
+   "optionDest": "datas",
+   "value": "D:/Microsoft Visual Studio/Projects/Ark Fishing Bot (Jai)/Ark Fishing Bot/hover.png;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "D:/Microsoft Visual Studio/Projects/Ark Fishing Bot (Jai)/Ark Fishing Bot/normal.png;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "D:/Microsoft Visual Studio/Projects/Ark Fishing Bot (Jai)/Ark Fishing Bot/overlay.png;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "D:/Microsoft Visual Studio/Projects/Ark Fishing Bot (Jai)/Ark Fishing Bot/running.png;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "D:/Microsoft Visual Studio/Projects/Ark Fishing Bot (Jai)/Ark Fishing Bot/starting.png;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "D:/Microsoft Visual Studio/Projects/Ark Fishing Bot (Jai)/Ark Fishing Bot/welcome.png;."
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": ""
+ }
+}

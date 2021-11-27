@@ -1,9 +1,3 @@
-from PIL import Image, ImageTk
-from tkinter import *
-import tkinter as tkr
-import PIL.ImageGrab
-import pyautogui
-import time
 import sys
 import os
 
@@ -25,7 +19,8 @@ def blockPrint():
 # Activates the print block function
 #blockPrint()
 
-
+from tkinter import PhotoImage, Button
+import tkinter as tkr
 
 class App():
 
@@ -46,8 +41,6 @@ class App():
         self.frame1 = tkr.Frame(self.root)
         self.frame2 = tkr.Frame(self.root)
         self.frame3 = tkr.Frame(self.root)
-
-        run = 0
 
         # Frame 1
 
@@ -85,35 +78,31 @@ class App():
 
         self.frame3.after(6000, self.open_command)
 
-
-        self.frame1.pack()
-        
-        
-
+        self.frame1.pack() # Allows for the contents of frame 1 to show
     
         self.root.mainloop()
-
         
     def open_command(self):
-        exec(open(resource_path('Ark_Fishing_Bot.py')).read()) # Runs the selected python file
+        exec(open(resource_path('Ark_Fishing_Bot.py')).read()) # Runs the python file labeled Ark_Fishing_Bot,py
 
     def frame1_command(self):
         #print ("You've chosen to start the program")
-        self.frame1.pack_forget() 
-        self.frame1.destroy() # Closes the menu
+        self.frame1.pack_forget() # Forgets tkinter contents in frame 1
+        self.frame1.destroy() # Closes the contents for frame 1
         self.frame2.pack() # Runs the next frame
     
     def frame2_command(self):
         #print ("You've chosen to start the program")
-        self.frame2.destroy() # Closes the menu
+        self.frame2.pack_forget() # Forgets tkinter contents in frame 2
+        self.frame2.destroy() # Closes the contents for frame 2
         self.frame3.pack() # Runs the next frame
         self.root.geometry("1920x200+0+1020")
-        
-    
 
     def close_command(self):
         #print ("Closing...")
-        self.root.destroy()
+        self.frame3.pack_forget() # Forgets tkinter contents in frame 2
+        self.frame3.destroy() # Closes the contents for frame 3
+        self.root.destroy() # Closes the contents for the root window
         sys.exit()
 
 a = App()

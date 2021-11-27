@@ -1,11 +1,11 @@
-from PIL import Image, ImageTk
-from tkinter import *
+from tkinter import PhotoImage, Button
 import tkinter as tkr
-import PIL.ImageGrab
-import pyautogui
-import time
 import sys
 import os
+import PIL
+from PIL import ImageGrab
+from pyautogui import keyDown, keyUp
+from time import sleep
 
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """
@@ -29,25 +29,18 @@ class App():
     def __init__(self):
 
         self.root = tkr.Tk()
-            # names the Tk root window
-        self.root.title("Automated Fishing Service Starter")
-            # sets the size of the window
-        self.root.geometry("150x150")
-            # removes title bar from window
-        self.root.overrideredirect(1)
+        self.root.title("Automated Fishing Service Starter")# Names the Tk root window
+        self.root.geometry("150x150") # Sets the size of the window
+        self.root.overrideredirect(1) # Removes title bar from window
+        self.root.configure(bg='grey') # Makes backgroud fo window grey
+        self.root.wm_attributes("-topmost", True) # Makes the window always stay on top
+        self.root.wm_attributes("-transparentcolor", "grey") # Makes the window background transparent
 
-        self.root.configure(bg='grey')
-        self.root.wm_attributes("-topmost", True)
-        self.root.wm_attributes("-transparentcolor", "grey")
-
-        normal = resource_path('normal.png')
-
-        hover = resource_path('hover.png')
+        normal, hover = resource_path('normal.png'), resource_path('hover.png')
 
         imgh = PhotoImage(file=hover)
 
         def changeOnHover(button, colorOnHover, colorOnLeave):
-  
             # adjusting backgroung of the widget
             # background on entering widget
             button.bind("<Enter>", func=lambda e: button.config(image=imgh, height=75))
