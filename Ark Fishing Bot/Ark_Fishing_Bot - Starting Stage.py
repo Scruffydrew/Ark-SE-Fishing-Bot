@@ -73,7 +73,7 @@ class App():
         overlay = resource_path('overlay.png')
 
         img4 = PhotoImage(file=overlay)
-        btn4= Button(self.frame3, image=img4, command=self.close_command, borderwidth=0, bg='grey', activebackground='grey', height=75)
+        btn4= Button(self.frame3, image=img4, borderwidth=0, bg='grey', activebackground='grey', height=75)
         btn4.pack(pady=0)
 
         self.frame3.after(6000, self.open_command)
@@ -97,14 +97,7 @@ class App():
         self.frame2.destroy() # Closes the contents for frame 2
         self.frame3.pack() # Runs the next frame
         self.root.geometry("1920x200+0+1020")
-
-    def close_command(self):
-        #print ("Closing...")
-        self.frame3.pack_forget() # Forgets tkinter contents in frame 2
-        self.frame3.destroy() # Closes the contents for frame 3
-        self.root.destroy() # Closes the contents for the root window
-        sys.exit()
-
+        
 a = App()
 
 

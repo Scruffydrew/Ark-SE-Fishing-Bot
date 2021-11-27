@@ -2,7 +2,6 @@ from tkinter import PhotoImage, Button
 import tkinter as tkr
 import sys
 import os
-import PIL
 from PIL import ImageGrab
 from pyautogui import keyDown, keyUp
 from time import sleep

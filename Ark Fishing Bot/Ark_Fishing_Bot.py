@@ -16,7 +16,7 @@ def blockPrint():
     sys.stdout = open(os.devnull, 'w')
 
 # Activates the print block function
-#blockPrint()
+blockPrint()
 
 R, G, B = 255, 255, 255, 
 
@@ -24,9 +24,10 @@ colour = (R,G,B)
 
 from PIL import ImageGrab
 from pyautogui import keyDown, keyUp
-from time import sleep
+from time import sleep, perf_counter
 
 while 1:
+    start = perf_counter()
     sleep(.1)
     # Get the RGB value for the pixel at the given coordinates on your screen
     PressQ, PressW, PressA, PressD, PressZ, PressX, PressE, PressS, PressC = \
@@ -103,3 +104,5 @@ while 1:
         keyDown("c")
         keyUp("c")
         pass
+    end = perf_counter()
+    print (end - start)
