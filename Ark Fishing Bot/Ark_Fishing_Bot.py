@@ -28,7 +28,6 @@ from time import sleep, perf_counter
 
 while 1:
     start = perf_counter()
-    sleep(.1)
     # Get the RGB value for the pixel at the given coordinates on your screen
     PressQ, PressW, PressA, PressD, PressZ, PressX, PressE, PressS, PressC = \
     ImageGrab.grab().load()[1181, 1016], \
