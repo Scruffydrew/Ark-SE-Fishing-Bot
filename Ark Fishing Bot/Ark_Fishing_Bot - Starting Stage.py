@@ -1,6 +1,6 @@
 import sys
 import os
-
+import subprocess
 
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """
@@ -78,20 +78,13 @@ class App():
 
         self.frame3.after(6000, self.open_command)
 
+
         self.frame1.pack() # Allows for the contents of frame 1 to show
     
         self.root.mainloop()
         
     def open_command(self):
-        exec(open(resource_path('q.py')).read()) # Runs the python file labeled q.py
-        exec(open(resource_path('w.py')).read()) # Runs the python file labeled w.py
-        exec(open(resource_path('a.py')).read()) # Runs the python file labeled a.py
-        exec(open(resource_path('d.py')).read()) # Runs the python file labeled d.py
-        exec(open(resource_path('z.py')).read()) # Runs the python file labeled z.py
-        exec(open(resource_path('x.py')).read()) # Runs the python file labeled x.py
-        exec(open(resource_path('e.py')).read()) # Runs the python file labeled e.py
-        exec(open(resource_path('s.py')).read()) # Runs the python file labeled s.py
-        exec(open(resource_path('c.py')).read()) # Runs the python file labeled c.py
+        exec(open(resource_path('program.py')).read()) # Runs the mentioned python file
 
     def frame1_command(self):
         #print ("You've chosen to start the program")
