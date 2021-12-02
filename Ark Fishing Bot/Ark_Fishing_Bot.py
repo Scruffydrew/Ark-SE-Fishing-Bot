@@ -34,7 +34,7 @@ while 1:
     ImageGrab.grab().load()[1162, 925], \
     ImageGrab.grab().load()[1167, 998], \
     ImageGrab.grab().load()[1179, 923], \
-    ImageGrab.grab().load()[1136, 997]
+    ImageGrab.grab().load()[1138, 997]
 
     if Point1 != colour and Point2 != colour and Point3 == colour and Point4 == colour and Point5 != colour:
         sleep(.1)
