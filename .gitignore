@@ -17,10 +17,10 @@ Ark Fishing Bot/Ark Fishing Bot.pyproj
 .vs/ProjectSettings.json
 .vs/Ark Fishing Bot/v16/.suo
 .gitattributes
-Ark Fishing Bot\.vs\VSWorkspaceState.json
-Ark Fishing Bot\.vs\Ark Fishing Bot\DesignTimeBuild\.dtbcache.v2
-Ark Fishing Bot\.vs\Ark Fishing Bot\v16\Browse.VC.db
-.vs\VSWorkspaceState.json
-.vs\slnx.sqlite
-.vs\Ark Fishing Bot (Jai)\v16\.suo
+Ark Fishing Bot/.vs/VSWorkspaceState.json
+Ark Fishing Bot/.vs/Ark Fishing Bot/DesignTimeBuild/.dtbcache.v2
+Ark Fishing Bot/.vs/Ark Fishing Bot/v16\Browse.VC.db
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
+.vs/Ark Fishing Bot (Jai)\v16/.suo
 
