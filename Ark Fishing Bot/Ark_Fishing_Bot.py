@@ -31,9 +31,9 @@ while 1:
     # Get the RGB value for the pixel at the given coordinates on your screen
     Point1, Point2, Point3, Point4, Point5 = \
     ImageGrab.grab().load()[1163, 969], \
-    ImageGrab.grab().load()[1162, 931], \
+    ImageGrab.grab().load()[1162, 925], \
     ImageGrab.grab().load()[1167, 998], \
-    ImageGrab.grab().load()[1180, 923], \
+    ImageGrab.grab().load()[1179, 923], \
     ImageGrab.grab().load()[1136, 997]
 
     if Point1 != colour and Point2 != colour and Point3 == colour and Point4 == colour and Point5 != colour:

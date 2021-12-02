@@ -84,7 +84,7 @@ class App():
         self.root.mainloop()
         
     def open_command(self):
-        exec(open(resource_path('program.py')).read()) # Runs the mentioned python file
+        exec(open(resource_path('Ark_Fishing_Bot.py')).read()) # Runs the mentioned python file
 
     def frame1_command(self):
         #print ("You've chosen to start the program")
