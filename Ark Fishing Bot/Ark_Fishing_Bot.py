@@ -30,7 +30,7 @@ while 1:
     start = perf_counter()
     # Get the RGB value for the pixel at the given coordinates on your screen
     Point1, Point2, Point3, Point4, Point5 = \
-    ImageGrab.grab().load()[1161, 969], \
+    ImageGrab.grab().load()[1162, 969], \
     ImageGrab.grab().load()[1162, 925], \
     ImageGrab.grab().load()[1167, 998], \
     ImageGrab.grab().load()[1179, 923], \
