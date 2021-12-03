@@ -30,7 +30,7 @@ while 1:
     start = perf_counter()
     # Get the RGB value for the pixel at the given coordinates on your screen
     Point1, Point2, Point3, Point4, Point5 = \
-    ImageGrab.grab().load()[1162, 969], \
+    ImageGrab.grab().load()[1162, 968], \
     ImageGrab.grab().load()[1162, 925], \
     ImageGrab.grab().load()[1167, 998], \
     ImageGrab.grab().load()[1179, 923], \
@@ -50,7 +50,7 @@ while 1:
         keyUp("w")
         pass
 
-    if Point1 == colour and Point2 != colour and Point3 == colour and Point4 == colour and Point5 == colour:
+    if Point1 == colour:
         sleep(.1)
         print('Press A')
         keyDown("a")
