@@ -39,42 +39,42 @@ while 1:
     if Point1 != colour and Point2 != colour and Point3 == colour and Point4 == colour and Point5 != colour:
         sleep(.1)
         print('Press Q')
-        keyDown("q")
+        keyDown("q") # Simulate a key press for the letter Q
         keyUp("q")
         pass
 
     if Point1 != colour and Point2 == colour and Point3 != colour and Point4 == colour and Point5 == colour:
         sleep(.1)
         print('Press W')
-        keyDown("w")
+        keyDown("w") # Simulate a key press for the letter W
         keyUp("w")
         pass
 
     if Point1 == colour:
         sleep(.1)
         print('Press A')
-        keyDown("a")
+        keyDown("a") # Simulate a key press for the letter A
         keyUp("a")
         pass
 
     if Point1 != colour and Point2 != colour and Point3 == colour and Point4 == colour and Point5 == colour:
         sleep(.1)
         print('Press D')
-        keyDown("d")
+        keyDown("d") # Simulate a key press for the letter D
         keyUp("d")
         pass
 
     if Point1 != colour and Point2 == colour and Point3 == colour and Point4 != colour and Point5 == colour:
         sleep(.1)
         print('Press Z')
-        keyDown("z")
+        keyDown("z") # Simulate a key press for the letter Z
         keyUp("z")
         pass
 
     if Point1 != colour and Point2 == colour and Point3 != colour and Point4 != colour and Point5 == colour:
         sleep(.1)
         print('Press X')
-        keyDown("x")
+        keyDown("x") # Simulate a key press for the letter X
         keyUp("x")
         pass
 
@@ -82,21 +82,21 @@ while 1:
     if Point1 != colour and Point2 == colour and Point3 == colour and Point4 == colour and Point5 == colour:
         sleep(.1)
         print('Press E')
-        keyDown("e")
+        keyDown("e") # Simulate a key press for the letter E
         keyUp("e")
         pass
 
     if Point1 != colour and Point2 == colour and Point3 == colour and Point4 != colour and Point5 != colour:
         sleep(.1)
         print('Press S')
-        keyDown("s")
+        keyDown("s") # Simulate a key press for the letter S
         keyUp("s")
         pass
 
     if Point1 != colour and Point2 != colour and Point3 == colour and Point4 != colour and Point5 != colour:
         sleep(.1)
         print('Press C')
-        keyDown("c")
+        keyDown("c") # Simulate a key press for the letter C
         keyUp("c")
         pass
     end = perf_counter()
