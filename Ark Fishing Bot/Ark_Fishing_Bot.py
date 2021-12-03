@@ -16,7 +16,7 @@ def blockPrint():
     sys.stdout = open(os.devnull, 'w')
 
 # Activates the print block function
-#blockPrint()
+blockPrint()
 
 R, G, B = 255, 255, 255, 
 
